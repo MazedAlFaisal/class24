@@ -1,0 +1,127 @@
+
+/*lg*/
+@media (min-width:992px) and (max-width:1199.98px){
+   #banner .bannerContent h1{
+      font-size: 55px;
+      letter-spacing: 25px;
+   }
+}
+
+/*md*/
+@media (min-width:768px) and (max-width:991.98px){
+   #banner .banner_slider_item {
+      height: 600px;
+   }
+   #banner .bannerContent h4 {
+      font-size: 25px;
+   }
+   #banner .bannerContent h1 {
+      font-size: 45px;
+      letter-spacing: 18px;
+   }
+   #about .about_item_container {
+      margin-top: 20px;
+   }
+   #about .about_item{
+      margin-top: 50px;
+   }
+   #about .about_item:nth-child(2n){
+      border-right-color:transparent;
+   }
+}
+
+/*sm*/
+@media (min-width:576px) and (max-width:767.98px){
+   #banner .bannerContent h1 {
+      font-size: 33px;
+      letter-spacing: 15px;
+   }#banner .bannerContent h4 {
+      font-size: 20px;
+   }
+   #banner .bannerContent p {
+      font-size: 14px;
+   }
+   #banner .bannerContent a {
+      font-size: 10px;
+      letter-spacing: 2px;
+      padding: 14px 39px;
+   }
+   #banner .banner_slider_item {
+   height: 646px
+   }
+   #about {
+      padding: 65px 0;
+    }
+    .secInfo h2 {
+      font-size: 42px;
+    }
+    .secInfo p {
+      font-size: 12px;
+      line-height: 33px;
+    }
+    #about .about_item_container {
+      margin-top: 15px;
+    }
+    #about .about_item:nth-child(2n){
+      border-right-color:transparent;
+   }
+#service {
+  padding: 52px 0;
+   }
+}
+#contact .contact_form {
+   padding: 10px 0;
+ }
+/*xs*/
+@media (max-width:575.98px){
+   #banner .banner_slider_item {
+      height: 450px;
+    }
+   #banner .bannerContent h1 {
+      font-size: 11px;
+      letter-spacing: 18px;
+    }
+    #banner .bannerContent h4 {
+      font-size: 12px;
+    }
+    #banner .bannerContent p {
+      font-size: 8px;
+    }
+    #banner .bannerContent img {
+      margin: 33px auto;
+    }
+    #banner .bannerContent a {
+      font-size: 6px;
+      letter-spacing: 2px;
+      padding: 12px 30px;
+    }
+    #about {
+      padding: 50px 0;
+    }
+    .secInfo p {
+      font-size: 13px;
+      line-height: 28px;
+    }
+    .secInfo p span {
+      font-size: 18px;
+    }
+    .secInfo h2 {
+      font-size: 31px;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #02918c;
+    }
+    #about .about_item_container {
+      margin-top: 6px;
+    }
+    #about .about_item {
+      padding: 22px 7px;
+    }
+   }
+
+@media (max-width:991.98px){
+   #service{
+      background-image: initial;
+      background-color: rgb(206, 203, 197);
+   }
+}

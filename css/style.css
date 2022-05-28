@@ -1,0 +1,221 @@
+/*
+Theme Name: MyFolio
+Author: My Folio
+Version: 1.0.0
+
+
+Table of Content
+=================================
+
+   1. Common Css
+   2. Nav Section
+   3. Banner Section
+*/
+
+
+/* Common Css Start */
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+   margin: 0;
+   padding: 0;
+}
+ol,ul{
+   list-style-type: none;
+}
+a,a:hover{
+   text-decoration: none;
+}
+.form-control{
+   border: none;
+}
+.form-control:focus,
+input:focus,
+textarea:focus{
+   box-shadow: none;
+   background: none;
+   border-color: transparent;
+   outline: 0;
+}
+.secInfo h2 {
+   font-size: 46px;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #02918c;
+}
+.secInfo p{
+   font-size: 16px;
+   color:#7e8287;
+   line-height: 41px;
+}
+.secInfo p span{
+   font-size: 23px;
+   font-weight: 800;
+}
+/* //Common Css End */
+
+/* Nav Section Css Start */
+#nav{
+   background-color: #02918c;
+}
+#nav #main_menu ul li a{
+   font-size: 12px;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #fff;
+   padding: 13px 25px;
+}
+#nav #main_menu ul li:hover a{
+   color:#cfc91d;
+}
+/* //Nav Section Css End */
+
+/* Banner Section Css Start */
+#banner .banner_slider_item{
+   height: 728px;
+   background-size: cover !important;
+   background-position: center !important;
+   position: relative;
+   z-index: 1;
+}
+#banner .banner_slider_item::before{
+   content: '';
+   position: absolute;
+   inset: 0;
+   background-color: rgba(0,0,0,0.66);
+   z-index: -1;
+}
+#banner .bannerContent{
+   color:#fff;
+}
+#banner .bannerContent h4{
+   font-size: 30px;
+   font-weight: 400;
+}
+#banner .bannerContent h1{
+   font-size: 68px;
+   text-transform: uppercase;
+   letter-spacing: 30px;
+}
+#banner .bannerContent p{
+   font-size: 18px;
+}
+#banner .bannerContent img{
+   display: block;
+   margin: 52px auto;
+}
+#banner .bannerContent a{
+   font-size: 14px;
+   letter-spacing: 4px;
+   text-transform: uppercase;
+   font-weight: 800;
+   color: #0b1016;
+   background-color: #cfc91d;
+   padding: 14px 42px;
+}
+/* //Banner Section Css End */
+
+/* About Section Css Start */
+#about{
+   padding: 90px 0;
+}
+#about .about_item_container{
+   margin-top: 75px;
+}
+#about .about_item{
+   color:#7e8287;
+   border-right: 1px solid #d9dbdb;
+   padding: 37px 40px;
+}
+#about .about_item:last-child{
+   border-right-color: transparent;
+}
+#about .about_item h4{
+   font-size: 16px;
+   margin: 20px 0;
+}
+#about .about_item p{
+   font-size: 11px;
+   line-height: 21px;
+}
+/* //About Section Css End */
+
+
+/* Service Section Css Start */
+#service{
+   padding: 65px 0;
+   background-image: url(../img/service_bg.jpg);
+   background-size: cover;
+   background-position: center;
+}
+#service .service_item{
+   margin-top: 30px;
+   padding-right: 80px;
+}
+#service .service_item h4{
+   font-size: 16px;
+   margin: 10px 0;
+}
+#service .service_item p{
+   font-size: 11px;
+   line-height: 21px;
+}
+/* //Service Section Css End */
+
+/* My Work Section Css Start */
+#myWork .myWork_item{
+   position: relative;
+}
+#myWork .myWork_item .overlay{
+   position: absolute;
+   color: #fff;
+   background-color:rgba(2,145,140,0.85);
+   inset: 28px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .4s linear;
+}
+#myWork .myWork_item:hover .overlay{
+   opacity: 1;
+   visibility: visible;
+}
+#myWork .myWork_item .overlay h4{
+   font-size: 16px;
+   margin-bottom: 5px;
+}
+#myWork .myWork_item .overlay p{
+   font-size: 11px;
+}
+/* //My Work Section Css End */
+
+
+/* Contact Section Css Start */
+#contact .contact_form{
+   background-color: #0b0b0b;
+   padding: 50px 0;
+}
+#contact .contact_form input,
+#contact .contact_form textarea{
+   display: block;
+   background: none;
+   width: 100%;
+   border: none;
+   border-bottom: 1px solid #898989;
+   color:#797c81;
+   text-align: center;
+   padding: 18px;
+   margin-top: 50px;
+   font-size: 16px;
+}
+/* //Contact Section Css End */
+
